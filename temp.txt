@@ -1,0 +1,7 @@
+have to copy ssh key from rocky-server
+have to run anisble to set users and nfs mount
+had to install slurm from nfs dir /home/slurmuser/ version 24.11.5
+restart slurmd on worker
+
+the flow right now
+install OS via console -> SSH in -> tweak sshd_config -> enable root -> restart SSH -> run Ansible -> remove distro slurm-* -> reinstall from NFS
