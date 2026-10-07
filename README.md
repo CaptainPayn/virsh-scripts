@@ -1,7 +1,7 @@
-## some virsh stuffs
+# some virsh stuffs
 - adjust the kickstart script point to your iso and where you keep your qcow2's
 - also need to create a ks.cfg file
-# example ks.cfg file (change to your ssh key and password for rootpw)
+## example ks.cfg file (change to your ssh key and password for rootpw)
 ```
 # unattended install
 cmdline
