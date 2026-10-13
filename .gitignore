@@ -1,1 +1,2 @@
-ks.cfg
+rhel/ks.cfg
+debian/ubuntu-install.sh
